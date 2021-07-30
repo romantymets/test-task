@@ -1,0 +1,43 @@
+.rootContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.container{
+    margin-left: -3%;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.list{
+    flex: 40%;
+    margin: 10px;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: initial;
+}
+
+.link{
+    color: black;
+    text-decoration: none;
+}
+.link:hover{
+    color:black;
+}
+
+.img{
+    width: 4rem;
+    height: 6rem;
+    background-color: white;
+    margin-right: 5px;
+}

@@ -41,7 +41,7 @@ const NotFoundPage = () => {
           <>
             <br />
             Try creating a page in <code style={codeStyles}>src/pages/</code>.
-            <br />
+            <br/>
           </>
         ) : null}
         <br />

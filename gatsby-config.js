@@ -4,6 +4,8 @@ module.exports = {
     title: "test-task",
   },
   plugins: [
+    `gatsby-source-data`,
+    "gatsby-plugin-image",
     {
       resolve: "gatsby-plugin-manifest",
       options: {
