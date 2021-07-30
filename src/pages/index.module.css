@@ -1,24 +1,26 @@
-.rootContainer{
+.rootContainer {
     display: flex;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     width: 80%;
     margin: 0 auto;
     margin-top: 40px;
+    font-family: initial;
 }
-.container{
-    margin-left: -3%;
+
+.container {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
 }
 
-.list{
+.list {
     flex: 40%;
     margin: 10px;
 }
-.card{
+
+.card {
     display: flex;
     flex-direction: row;
     padding: 10px;
@@ -27,17 +29,34 @@
     font-family: initial;
 }
 
-.link{
+.cardText:hover {
+    transform: translate(10px);
+    transition-duration: 0.5s;
+    border-radius: 5px;
+}
+
+.link {
     color: black;
     text-decoration: none;
 }
-.link:hover{
-    color:black;
+
+.link:hover {
+    color: black;
 }
 
-.img{
+.img {
     width: 4rem;
     height: 6rem;
     background-color: white;
     margin-right: 5px;
+}
+
+.footer {
+    height: 50px;
+    background: #212529;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
