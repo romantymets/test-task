@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from 'gatsby'
+import { GiWineBottle } from "@react-icons/all-files/gi/GiWineBottle";
 import { Navbar, Container } from 'react-bootstrap';
 import {link} from "../pages/index.module.css"
 export default function Layout({ children }) {
@@ -8,7 +8,7 @@ export default function Layout({ children }) {
       <Navbar bg="light" variant="light">
         <Container>
           <Navbar.Brand>
-            <Link to="/" className={link}>Wine cart</Link>
+         <GiWineBottle style={{"font-size": "5rem"}}/>  Wine cart
           </Navbar.Brand>
         </Container>
       </Navbar>

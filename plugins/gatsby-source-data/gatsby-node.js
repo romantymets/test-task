@@ -92,7 +92,7 @@ exports.sourceNodes = async ({
       {
         points: "86",
         title: "Ram 2014 Alder Ridge Vineyard Cabernet Franc (Columbia Valley (WA))",
-        img:"https://www.club-of-wine.de/media/catalog/product/9/1/919515-_kwv-cabernet-sauvignon.png",
+        img:"https://images.vivino.com/labels/nbt1t-wNTNydF4WtuyMjQQ.jpg",
         description: "The aromas are brooding, with notes of barrel spice and cherry. The flavors are tart and elegant in style, with lightly gritty tannins backing them up. Best suited to the dinner table.",
         taster_name: "Sean P. Sullivan",
         taster_twitter_handle: "@wawinereport",
@@ -108,7 +108,7 @@ exports.sourceNodes = async ({
       {
         points: "86",
         title: "Sevtap 2015 Golden Horn Sauvignon Blanc (Santa Ynez Valley)",
-        img:"https://images.squarespace-cdn.com/content/v1/5fd86a96dba154430f793bc7/1608271233565-ASIUD7P2IB82369PZS23/2015GOLDENHORN.jpg?format=1000w",
+        img:"https://images.vivino.com/labels/boHH6LdYTFiuBI-NKNSNdw.jpg",
         description: "There are intriguing touches to the nose of this bottling, with jasmine, sea salt, wet hay, quinine and rainy sidewalk. The structure on the sip is quite delicate, with golden apple and honey flavors.",
         taster_name: "Matt Kettmann",
         taster_twitter_handle: "@mattkettmann",
@@ -124,7 +124,7 @@ exports.sourceNodes = async ({
       {
         points: "86",
         title: "Basel Cellars 2013 Inspired Red (Columbia Valley (WA))",
-        img:"https://images.vivino.com/thumbs/_PjbrllZQHyEqnpbTppEow_pb_600x600.png",
+        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3HoR2rv9MYcg25rBx2RGN4MqXgwGT6nnpRrzDfot_s36gV75TG93vM8OZPhzcWZFyRgg&usqp=CAU",
         description: "A blend of Merlot and Cabernet Franc, this wine brings disjointed lightly volatile aromas of wood spice, vanilla and cherry. The plump cherry flavors are rounded out by woody barrel notes.",
         taster_name: "Sean P. Sullivan",
         taster_twitter_handle: "@wawinereport",
@@ -140,7 +140,7 @@ exports.sourceNodes = async ({
       {
         points: "86",
         title: "Eco Terreno 2013 Old Vine Cabernet Sauvignon (Alexander Valley)",
-        img:"https://images.vivino.com/thumbs/GmjR6KygRmOupYI_OVw83g_pb_600x600.png",
+        img:"http://storage.googleapis.com/cdn.vinoshipper.com/wine/23049/07188180-662b-427d-865b-fef802f91512.jpg",
         description: "Big oak defines this robustly dense and extracted red, swimming in vanilla and cherry flavor. Full-bodied and gravelly in texture, it's a rustically pleasant wine for pizza nights and crowds.",
         taster_name: "Virginie Boone",
         taster_twitter_handle: "@vboone",
@@ -156,7 +156,7 @@ exports.sourceNodes = async ({
       {
         points: "86",
         title: "Hindsight 2012 Estate Grown Petite Sirah (Calistoga)",
-        img:"https://images.vivino.com/thumbs/NpAgjznASwOt9Ujr8ynTLg_pb_x960.png",
+        img:"https://www.wine-searcher.com/images/labels/30/67/10883067.jpg",
         description: "This is the producer's first release of this wine. Fruity aromas of plum and tart cranberry add to its overall sense of lightness and understatement.",
         taster_name: "Virginie Boone",
         taster_twitter_handle: "@vboone",

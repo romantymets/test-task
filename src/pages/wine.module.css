@@ -1,0 +1,29 @@
+.conteiner{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: initial;
+}
+.imgContainer{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 350px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 4px;
+}
+.link{
+    color: white;
+    text-decoration: none;
+    width: 100%;
+}
+.link:hover{
+    color:black;
+}
+
+.textCard{
+    color: deeppink;
+    margin-right: 3px;
+}
