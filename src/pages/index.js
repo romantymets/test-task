@@ -35,7 +35,7 @@ const IndexPage = ({ data }) => {
   const { nodes } = allWines;
   return (
     <Layout>
-      <div className={rootContainer}>
+      <main className={rootContainer}>
         <h5>Please select your wine</h5>
         <ul className={container}>
           {
@@ -52,7 +52,7 @@ const IndexPage = ({ data }) => {
             )
           }
         </ul>
-      </div>
+      </main>
     </Layout>
   )
 };

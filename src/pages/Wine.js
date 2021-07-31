@@ -9,6 +9,7 @@ const WinePage = ({ location }) =>  {
   const { state = {} } = location;
   const { wine } = state;
   return (
+    <main>
     <Layout>
       <div className={container}>
         <img src={wine.img} alt="...loading" className={imgContainer}/>
@@ -51,6 +52,7 @@ const WinePage = ({ location }) =>  {
         </Card>
       </div>
     </Layout>
+    </main>
   )
 };
 
