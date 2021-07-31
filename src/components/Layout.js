@@ -19,6 +19,7 @@ export default function Layout({ children }) {
           </Link>
         </Container>
       </Navbar>
+
       <div>
         {children}
       </div>
