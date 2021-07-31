@@ -5,7 +5,7 @@ import { imgContainer, container, link, textCard } from "./wine.module.css"
 import Layout from "../components/Layout"
 
 
-const WinePage = ({ location }) =>  {
+const WinePage = ({ location} ) =>  {
   const { state = {} } = location;
   const { wine } = state;
   return (
