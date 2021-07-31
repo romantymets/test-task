@@ -5,7 +5,7 @@ import { imgContainer, container, link, textCard } from "./wine.module.css"
 import Layout from "../components/Layout"
 
 
-export default function Wine({ location }) {
+const WinePage = ({ location }) =>  {
   const { state = {} } = location;
   const { wine } = state;
   return (
@@ -52,4 +52,6 @@ export default function Wine({ location }) {
       </div>
     </Layout>
   )
-}
+};
+
+export default WinePage;
