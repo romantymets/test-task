@@ -5,9 +5,10 @@ import { imgContainer, container, link, textCard } from "./wine.module.css"
 import Layout from "../components/Layout"
 
 
-const WinePage = ({ location} ) =>  {
-  const { state = {} } = location;
-  const { wine } = state;
+const WinePage = () =>  {
+  // const { state = {} } = location;
+  // const { wine } = state;
+  const wine = {};
   return (
     <main>
     <Layout>
