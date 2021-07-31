@@ -40,7 +40,7 @@ const IndexPage = ({ data }) => {
         <ul className={container}>
           {
             nodes.map((wine) => <li key={wine.title} className={list}>
-                <Link className={link} to="/wine" state={{ wine }}>
+                <Link className={link} to="/Wine" state={{ wine }}>
                   <Card className={card}>
                     <Card.Img variant="top" src={wine.img} alt="Loading" className={img}/>
                     <Card.Text className={cardText}>
