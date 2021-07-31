@@ -60,3 +60,11 @@
     align-items: center;
     flex-direction: row;
 }
+.brandLink{
+    text-decoration: none;
+}
+.brandLink:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color:deeppink;
+}

@@ -1,10 +1,12 @@
-.conteiner {
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     font-family: initial;
     background: #f8f9fa;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 .imgContainer {
