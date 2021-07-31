@@ -7,44 +7,43 @@ import Layout from "../components/Layout"
 
 const WinePage = ({ location }) =>  {
   const { state = {} } = location;
-  const { wine = {} } = state;
   return (
     <main>
     <Layout>
       <div className={container}>
-        <img src={wine.img} alt="...loading" className={imgContainer}/>
+        <img src={state.wine.img} alt="...loading" className={imgContainer}/>
         <Card style={{ width: '60%' }}>
           <Card.Body>
-            <Card.Title>{wine.title}</Card.Title>
+            <Card.Title>{state.wine.title}</Card.Title>
             <Card.Text>
-              <span className={textCard}> Description:  </span> {wine.description}
+              <span className={textCard}> Description:  </span> {state.wine.description}
             </Card.Text>
             <Card.Text>
-              <span className={textCard}> Price: </span>: {wine.price} Є
+              <span className={textCard}> Price: </span>: {state.wine.price} Є
             </Card.Text>
             <Card.Text>
-              <span className={textCard}> Designation: </span> {wine.designation}
+              <span className={textCard}> Designation: </span> {state.wine.designation}
             </Card.Text>
             <Card.Text>
-              <span className={textCard}> Points: </span> {wine.points}
+              <span className={textCard}> Points: </span> {state.wine.points}
             </Card.Text>
             <Card.Text>
-              <span className={textCard}> Province: </span> {wine.province}
+              <span className={textCard}> Province: </span> {state.wine.province}
             </Card.Text>
             <Card.Text>
-              <span className={textCard}> Region 1: </span> {wine.region_1}
+              <span className={textCard}> Region 1: </span> {state.wine.region_1}
             </Card.Text>
             <Card.Text>
-              <span className={textCard}> Region 2: </span>{wine.region_2}
+              <span className={textCard}> Region 2: </span>{state.wine.region_2}
             </Card.Text>
             <Card.Text>
-              <span className={textCard}> Country: </span> {wine.country}
+              <span className={textCard}> Country: </span> {state.wine.country}
             </Card.Text>
             <Card.Text>
-              <span className={textCard}> Variety: </span>{wine.variety}
+              <span className={textCard}> Variety: </span>{state.wine.variety}
             </Card.Text>
             <Card.Text>
-              <span className={textCard}> Winery: </span> {wine.winery}
+              <span className={textCard}> Winery: </span> {state.wine.winery}
             </Card.Text>
           </Card.Body>
           <Link to="/" className={link}><Button
